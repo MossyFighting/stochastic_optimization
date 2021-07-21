@@ -15,7 +15,29 @@
             5. Update global best.
         UNTIL Terminate condition is met.
 - Test functions:
-\begin{equation}
-Cost = \sum_{i=1}^6 x_{i}^2,
-\end{equation}
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/function.png" />
+</p>
 with the minimum value is 0 with all variables are zero.
+- Results are shown below with 50 iterations, and all the 6 variables having values very closed to 0. The more iterations, the more  precise digits after the decimal.
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/iter_loss.png" />
+</p>
+
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/loss.png" />
+</p>
+
+- New test functions:
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/p2_cost.png" />
+</p>
+with the minimum value is 0 with all variables are one.
+- Results are shown below with 50 iterations, and all the 6 variables having values very closed to 0. The more iterations, the more  precise digits after the decimal.
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/p2_loss_iter.png" />
+</p>
+
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/stochastic_optimization/blob/main/figure/p2_loss_iter_plot.png" />
+</p>
